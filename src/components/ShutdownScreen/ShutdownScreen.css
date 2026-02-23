@@ -1,0 +1,21 @@
+.shutdown-screen {
+  position: fixed;
+  inset: 0;
+  background: #000;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: fade-in 1s ease forwards;
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.shutdown-text {
+  color: #fff;
+  font-family: 'Tahoma', sans-serif;
+  font-size: 16px;
+}

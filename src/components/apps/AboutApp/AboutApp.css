@@ -1,0 +1,86 @@
+.about {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-y: auto;
+  font-family: 'Tahoma', sans-serif;
+  background: #fff;
+}
+
+.about-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 24px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #ddd;
+}
+
+.about-avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.about-name {
+  margin: 0;
+  font-size: 22px;
+  color: #1941a5;
+}
+
+.about-role {
+  margin: 4px 0 0;
+  color: #555;
+  font-size: 14px;
+}
+
+.about-section {
+  margin-bottom: 20px;
+}
+
+.about-section h2 {
+  font-size: 14px;
+  color: #1941a5;
+  margin: 0 0 8px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.about-section p {
+  font-size: 13px;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.about-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.about-tag {
+  background: #e8f0fe;
+  color: #1941a5;
+  border: 1px solid #c0d0f0;
+  border-radius: 3px;
+  padding: 3px 10px;
+  font-size: 12px;
+}
+
+.about-links {
+  display: flex;
+  gap: 12px;
+}
+
+.about-links a {
+  color: #1941a5;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.about-links a:hover {
+  text-decoration: underline;
+}
