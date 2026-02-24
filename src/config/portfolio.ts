@@ -25,5 +25,11 @@ export const portfolio = {
         tags: ["Java"],
         github: "https://github.com/vesely-jiri/SkGame",
     },
+        {
+        name: "Webfolio",
+        description: "Interactive website that imitates Windows XP operating system",
+        tags: ["Typescript", "Javascript"],
+        github: "https://github.com/vesely-jiri/Webfolio",
+    },
   ],
 }
