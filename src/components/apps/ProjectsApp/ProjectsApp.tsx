@@ -1,3 +1,4 @@
+import { portfolio } from "../../../config/portfolio"
 import "./ProjectsApp.css"
 
 interface Project {
@@ -8,20 +9,7 @@ interface Project {
   demo?: string
 }
 
-const projects: Project[] = [
-  {
-    name: "Genesis resources",
-    description: "Repository for engeto final portfolio project 3",
-    tags: ["Java", "Spring Boot", "Maven", "PostgreSQL", "H2", "JUnit", "Mockito"],
-    github: "https://github.com/vesely-jiri/GenesisResources",
-  },
-  {
-    name: "SkGame",
-    description: "A modular Skript framework for creating minigames that follow unified conventions — complete with a vanilla implementation.",
-    tags: ["Java"],
-    github: "https://github.com/vesely-jiri/SkGame",
-  },
-]
+const projects: Project[] = portfolio.projects
 
 function ProjectsApp() {
   return (
