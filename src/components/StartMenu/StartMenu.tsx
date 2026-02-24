@@ -28,11 +28,11 @@ function StartMenu({ onClose }: Props) {
             <span>Command Prompt</span>
           </button>
           <button className="start-menu-item" onClick={() => handleOpen("about")}>
-            <img src="/icons/about.png" alt="" />
+            <img src="/icons/full-folder.png" alt="" />
             <span>About Me</span>
           </button>
           <button className="start-menu-item" onClick={() => handleOpen("projects")}>
-            <img src="/icons/about.png" alt="" />
+            <img src="/icons/full-folder.png" alt="" />
             <span>My Projects</span>
           </button>
         </div>
