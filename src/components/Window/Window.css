@@ -32,6 +32,18 @@
   font-family: 'Tahoma', sans-serif;
 }
 
+.window-title-left {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.window-title-icon {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+}
+
 .window-controls {
   display: flex;
   gap: 2px;

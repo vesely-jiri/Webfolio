@@ -55,8 +55,11 @@ function Window({ window: win, children }: Props) {
         height: win.size.height,
       }}
     >
-      <div className="window-titlebar" onMouseDown={handleMouseDown}>
-        <span className="window-title">{win.title}</span>
+            <div className="window-titlebar" onMouseDown={handleMouseDown}>
+        <div className="window-title-left">
+          <img src={win.icon} alt="" className="window-title-icon" />
+          <span className="window-title">{win.title}</span>
+        </div>
         <div className="window-controls">
           <button onClick={() => minimizeWindow(win.id)} className="btn-minimize">_</button>
           <button onClick={() => closeWindow(win.id)} className="btn-close">✕</button>
