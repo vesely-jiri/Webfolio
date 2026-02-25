@@ -5,7 +5,7 @@ function AboutApp() {
   return (
     <div className="about">
       <div className="about-header">
-        <img src="/icons/about.png" alt="avatar" className="about-avatar" />
+        <img src="/avatars/dog.png" alt="avatar" className="about-avatar" />
         <div>
           <h1 className="about-name">{portfolio.name}</h1>
           <p className="about-role">{portfolio.role}</p>

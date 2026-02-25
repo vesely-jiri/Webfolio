@@ -17,7 +17,7 @@ function StartMenu({ onClose }: Props) {
   return (
     <div className="start-menu">
       <div className="start-menu-header">
-        <img src="/icons/about.png" alt="avatar" className="start-menu-avatar" />
+        <img src="/avatars/dog.png" alt="avatar" className="start-menu-avatar" />
         <span className="start-menu-username">{portfolio.name}</span>
       </div>
 
